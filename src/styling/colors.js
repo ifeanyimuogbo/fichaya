@@ -1,0 +1,21 @@
+// colors
+export const appealBlue = "#2E2E99";
+export const secondary = "#575757";
+export const fichayaBlack = "#373737";
+export const fichayaGold = "#DEA000";
+export const fichayaNegative = "#F6431E";
+export const fichayaPurple = "#01037C";
+export const fichayaSecondaryBleak = "#606077";
+export const fichayaWhite = "#FFFFFF";
+export const fichayaTransparentWhite = "rgba(255, 255, 255, 0.87)";
+export const fichayaYellow = "#FF991F";
+export const fichayaYellowHighlight = "rgba(255,153,31,1)";
+export const fichayaDisabledBackground = "#EDEDED";
+export const fichayaDisabledText = "#606077";
+export const background = "#F6F6FF";
+export const textPrimary = "#373737";
+export const textSecondary = "#606077";
+export const textTertiary = "01037C";
+export const textDisabled = "#A6A6A6";
+export const backgroundPaper = "#ffffff";
+export const backgroundAlt = "#E5E5E5";
