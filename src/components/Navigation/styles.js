@@ -57,12 +57,24 @@ const useStyles = makeStyles((theme) => ({
       backgroundColor: theme.palette.common.appealBlue,
       padding: theme.spacing(1.25),
       flexBasis: "30%",
+      [theme.breakpoints.up("sm")]: {
+        flexBasis: "30%",
+      },
+      [theme.breakpoints.up("md")]: {
+        flexBasis: "40%",
+      },
     },
     "& .button-two": {
       color: theme.palette.getContrastText(theme.palette.common.appealBlue),
       backgroundColor: theme.palette.common.appealBlue,
       padding: theme.spacing(1.25),
       flexBasis: "40%",
+      [theme.breakpoints.up("sm")]: {
+        flexBasis: "40%",
+      },
+      [theme.breakpoints.up("md")]: {
+        flexBasis: "60%",
+      },
     },
     "& .menu-button": {
       backgroundColor: theme.palette.common.appealBlue,

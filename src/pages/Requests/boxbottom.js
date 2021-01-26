@@ -59,6 +59,7 @@ const BoxBottom = ({ className }) => {
           role={undefined}
           transition
           disablePortal
+          style={{ background: "#ffffff" }}
         >
           {({ TransitionProps, placement }) => (
             <Grow
