@@ -35,7 +35,7 @@ import styles from "./styles";
 const MobileDrawer = (props) => {
   useEffect(() => {
     window.onresize = () => {
-      const { width, open, onClose } = this.props;
+      const { width, open, onClose } = props;
       if (isWidthUp("sm", width) && open) {
         onClose();
       }
